@@ -701,7 +701,8 @@ constexpr char kDeviceHloOpProfiles[] = R"pb(
                         shape { element_type: F32 }
                       }
                       clock_cycles: 504
-                    }
+                    })pb"
+                                        R"pb(
                     entries {
                       instruction {
                         opcode: "power"
